@@ -1,0 +1,13 @@
+comedy =["Friends","3 idiots","The Big Bang Theory","Space Force"]
+thriller=["Dark","Parasite","Money Hiest","Prison Break","war"]
+print("Enter Movie name: ")
+choose=input()
+choose=choose.lower()
+thriller=map(str.lower,thriller)
+comedy=map(str.lower,comedy)
+if choose in thriller:
+  print("This is a thriller movie")
+elif choose in comedy:
+  print("This is a comedy movie")
+else:
+  print("neither thriller nor comedy")  
